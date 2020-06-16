@@ -1,0 +1,82 @@
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.value {
+  font-size: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 2px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+  outline: none;
+  border: 2px solid transparent;
+  color: rgb(112, 76, 182);
+  padding-bottom: 4px;
+  cursor: pointer;
+  background-color: rgba(112, 76, 182, 0.1);
+  border-radius: 2px;
+  transition: all 0.15s;
+}
+
+.textbox {
+  font-size: 14px;
+  width: 100px;
+  text-align: left;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.button:hover,
+.button:focus {
+  border: 2px solid rgba(112, 76, 182, 0.4);
+}
+
+.button:active {
+  background-color: rgba(112, 76, 182, 0.2);
+}
+
+.square1 {
+  width: 100px;
+  border: 1px;
+  height: 50px;
+  background-color: red;
+  border-style: solid;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.square2 {
+  width: 100px;
+  border: 1px;
+  height: 50px;
+  background-color: blue;
+  border-style: solid;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.square {
+  width: 100px;
+  border: 1px;
+  height: 50px;
+  background-color: white;
+  border-style: solid;
+  margin-left: 4px;
+  margin-right: 4px;
+}
