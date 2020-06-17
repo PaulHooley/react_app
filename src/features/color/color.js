@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { colorChange, reset } from "./colorSlice";
 import { update } from "./textSlice";
-import styles from "./Counter.module.css";
+import styles from "./Color.module.css";
 
 export function Color() {
   const dispatch = useDispatch();
