@@ -12,6 +12,9 @@ export function Toolbar() {
         <Link to="/color" className={styles.button}>
           Color
         </Link>
+        <Link to="/stock" className={styles.button}>
+          Stocks
+        </Link>
       </div>
     </div>
   );
